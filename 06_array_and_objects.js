@@ -39,8 +39,8 @@ const person = {
   beruf: "Ingenieur",
 };
 
-//console.log(person.vorname); // Gibt "Max" aus
-//console.log(person.alter); // Gibt 30 aus
+//console.log(person.vorname);
+//console.log(person.alter);
 
 person.email = "max@example.com"; // Fügt eine neue Eigenschaft hinzu
 person.alter = 31; // Ändert den Wert einer bestehenden Eigenschaft
