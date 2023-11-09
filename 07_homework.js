@@ -7,8 +7,7 @@ let einkaufsliste = [];
 function produktHinzufuegen(produkt) {
     einkaufsliste.push(produkt);
 }
-produktHinzufuegen("Milch");
-console.log(einkaufsliste);
+
 
 // 3: Schreibe eine Funktion namens produktEntfernen, die ein Produkt von der Einkaufsliste entfernt. 
 // Die Funktion sollte den Namen des zu entfernenden Produkts als Parameter nehmen und das Produkt aus dem Array entfernen.
@@ -29,7 +28,7 @@ function listeAusgeben() {
         console.log("Die Einkaufsliste ist leer.")
     }
 }
-listeAusgeben();
+
 
 
 // 5: Nutze einen for-loop, um durch die Einkaufsliste zu iterieren und die Produkte auszugeben.
@@ -37,4 +36,9 @@ listeAusgeben();
 
 
 // 6: Teste dein Programm, indem du Produkte hinzufügst, einige entfernst und die Einkaufsliste ausgibst.
-
+produktHinzufuegen("Milch");
+produktHinzufuegen("Butter");
+console.log(einkaufsliste);
+produktEntfernen("Milch");
+console.log(einkaufsliste);
+listeAusgeben();
