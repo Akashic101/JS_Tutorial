@@ -81,3 +81,21 @@ die durch 9 teilbar sind. Verwende dazu eine for-Schleife, um die Zahlen von 0 b
 und überprüfe, ob jede Zahl durch 9 ohne Rest teilbar ist. Wenn eine Zahl durch 9 teilbar ist, gib sie aus.
 
 */
+
+for (let i = 0; i <= 100; i++){
+    if(i % 9 == 0){
+        console.log(i)
+    }
+}
+
+for (let i = 0; i <= 100; i++){
+    if(i % 3 == 0 && i % 5 == 0){
+        console.log("fizzbuzz");
+    } else if (i % 3 == 0) {
+        console.log("fizz");
+    } else if (i % 5 == 0) {
+         console.log("buzz");
+    } else {
+        console.log(i);
+    }
+}

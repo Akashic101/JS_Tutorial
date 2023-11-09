@@ -55,3 +55,48 @@ Wenn die Punktzahl unter 50 liegt, soll "6" ausgegeben werden.
 Schreibe die Aufgabe einmal als if-statement und einmal als switch-statement
 
 */
+let note;
+let punktzahl = 60;
+if (punktzahl <= 100 && punktzahl >= 90) {
+    note = 1;
+} else if (punktzahl < 90 && punktzahl >= 80) {
+    note = 2;
+} else if (punktzahl < 80 && punktzahl >= 70) {
+    note = 3;
+} else if (punktzahl < 70 && punktzahl >= 60) {
+    note = 4;
+} else if (punktzahl < 60 && punktzahl >= 50) {
+    note = 5;
+} else if (punktzahl < 50 && punktzahl >= 0) {
+    note = 6;
+} else {
+    note = 7;
+}
+console.log(note);
+
+punktzahl = 80;
+
+switch(true) {
+    case (punktzahl <= 100 && punktzahl >= 90):
+        note = 1;
+        break;
+    case (punktzahl < 90 && punktzahl >= 80):
+        note = 2;
+        break;
+    case (punktzahl < 80 && punktzahl >= 70):
+        note = 3;
+        break;
+    case (punktzahl < 70 && punktzahl >= 60):
+        note = 4;
+        break;
+    case (punktzahl < 60 && punktzahl >= 50):
+        note = 5;
+        break;
+    case (punktzahl < 50 && punktzahl >= 40):
+        note = 6;
+        break;
+    default:
+        note = 7;
+}
+
+console.log(note);

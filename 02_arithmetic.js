@@ -64,3 +64,12 @@ Aufgabe:
 7. Gib die Ergebnisse aus
 
 */
+
+let num1 = 2
+let num2 = 4
+let summe = num1 + num2
+let differenz = num1 - num2
+let produkt = num1 * num2
+let quotienten = num1 / num2
+let rest = num1 % num2
+console.log(summe + " " + differenz + " " + produkt + " " + quotienten + " " + rest)

@@ -11,7 +11,7 @@ Code verweisen und ihn manipulieren kannst
 // Variablen deklarieren
 // In JavaScript gibt es drei Möglichkeiten, Variablen zu deklarieren:
 
-var alter = 25;
+// var alter = 25;
 
 // var (weniger gebräuchlich): Dies war die ursprüngliche Methode, Variablen in JavaScript zu deklarieren,
 // wird jedoch heute weniger häufig verwendet. Mit var deklarierte Variablen haben einen Funktionsbereich.
@@ -84,3 +84,11 @@ Aufgabe:        Erstelle 5 variablen mit dem Namen "vorname", "nachname", "alter
 Extrapunkte:    Gib alle Variablen in einem Satz aus (Hinweis: Es gibt einen Unterschied zwischen ", ` und ')
 
 */
+
+const vorname = "Sydney"
+const nachname = "Antoni"
+let alter = 18
+let wohnort = "Dortmund"
+let groesse = 182
+console.log(vorname + " " + nachname + " " + alter + " " + wohnort + " " + groesse)
+console.log(`${vorname} ist mein Name`)

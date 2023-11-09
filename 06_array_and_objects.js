@@ -72,3 +72,38 @@ Andernfalls sollte die Funktion "Buch nicht gefunden" zurückgeben.
 Verwende die sucheBuch-Funktion, um nach einem Buch im Katalog zu suchen und die Informationen darüber anzuzeigen.
 
 */
+
+let buchkatalog = [];
+
+let buch1 = {
+    titel:"Buch1",
+    autor:"Sydney",
+    veröffentlicht:2023,
+}
+let buch2 = {
+    titel:"Buch2",
+    autor:"Max",
+    veröffentlicht:2020,
+}
+let buch3 = {
+    titel:"Buch3",
+    autor:"David",
+    veröffentlicht:2024,
+}
+
+buchkatalog.push(buch1);
+buchkatalog.push(buch2);
+buchkatalog.push(buch3);
+
+console.log(buchkatalog);
+
+function sucheBuch(titel){
+    for(let buch of buchkatalog){
+        if(buch.titel == titel){
+            return buch;
+        }
+    }
+    return "Buch nicht gefunden";
+}
+let gesuchtesBuch = sucheBuch("Buch2");
+console.log(gesuchtesBuch);

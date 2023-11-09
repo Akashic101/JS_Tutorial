@@ -64,8 +64,11 @@ function autoFunction() {
 
 // Definiere die Funktion gebeGrussAus
 function gebeGrussAus(name) {
-  
+    return "Hallo, " + name + "!";
 }
+console.log(gebeGrussAus("Max"));
+console.log(gebeGrussAus("Anna"));
+console.log(gebeGrussAus("Peter"));
 
 /*
 
