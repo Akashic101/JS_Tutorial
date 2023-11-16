@@ -1,0 +1,20 @@
+HTML Setup:
+
+Erstelle eine HTML-Datei.
+Füge einen Button mit der ID "exerciseButton" und einen Absatz mit der ID "resultParagraph" hinzu.
+
+JavaScript Aufgabe:
+
+Erstelle eine JavaScript-Datei
+Schreibe ein Skript, das Folgendes macht:
+Fügt einen Event Listener dem Button hinzu.
+Wenn der Button geklickt wird, ändere den Textinhalt des Absatzes auf "Button wurde geklickt!".
+Aufgabe des Schülers:
+
+Erkläre in wenigen Sätzen, wie Event Listener in JavaScript funktionieren.
+Vervollständige die bereitgestellte HTML-Datei, indem du die notwendigen Attribute zu den Button- und Absatzelementen hinzufügst.
+Schreibe den JavaScript-Code, um die angegebene Funktionalität zu erreichen.
+Öffne die HTML-Datei in einem Browser und teste, ob das Klicken des Buttons den Text des Absatzes aktualisiert.
+Bonus-Aufgabe:
+
+Ändere den JavaScript-Code so ab, dass der Textinhalt zwischen "Button wurde geklickt!" und dem ursprünglichen Text bei jedem Klick umgeschaltet wird.
