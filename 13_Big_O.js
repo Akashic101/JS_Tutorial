@@ -14,20 +14,13 @@ let array = [
   6, 76, 44, 43, 5, 6, 7, 78, 64, 3, 4, 4, 7, 543, 4, 234, 43, 5, 65, 76, 43, 2,
 ];
 
-
-
-
 // O(1) - Konstanter Aufwand: Dies bedeutet, dass die Laufzeit des Algorithmus konstant bleibt, unabhängig von der Größe der Eingabe.
 function getFirstElement(arr) {
   return arr[0];
 }
 
 // Der Aufwand, das erste Element eines Arrays abzurufen, bleibt konstant, egal wie groß das Array ist.
-console.log(getFirstElement(array));
-
-
-
-
+// console.log(getFirstElement(array));
 
 // O(n) - Linearer Aufwand: Der Aufwand wächst linear mit der Größe der Eingabe.
 function findElement(arr, target) {
@@ -40,11 +33,7 @@ function findElement(arr, target) {
 }
 
 // Hier wird jedes Element des Arrays durchlaufen, bis das gesuchte Element gefunden wird.
-console.log(findElement(array, 34));
-
-
-
-
+//console.log(findElement(array, 34));
 
 // O(n^2) - Quadratischer Aufwand: Der Aufwand wächst quadratisch mit der Größe der Eingabe.
 function bubbleSort(arr) {
@@ -61,9 +50,6 @@ function bubbleSort(arr) {
 
 // Bubble Sort hat einen quadratischen Aufwand, da für jedes Element im Array eine weitere Schleife durchlaufen wird.
 console.log(bubbleSort(array));
-
-
-
 
 /*
 Es ist wichtig zu beachten, dass die Big O-Notation den schlimmsten Fall beschreibt. 

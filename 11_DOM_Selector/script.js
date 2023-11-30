@@ -10,6 +10,7 @@ function changeText() {
     var paragraphElements = document.getElementsByClassName("tutorial-paragraph");
     for (var i = 0; i < paragraphElements.length; i++) {
         paragraphElements[i].style.color = "blue";
+        paragraphElements[i].style.backgroundColor = "red";
         paragraphElements[i].style.fontWeight = "bold";
     }
 

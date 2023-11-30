@@ -15,7 +15,7 @@ function removeClickHandler() {
 var myButton = document.getElementById('myButton');
 
 // Dem Button einen EventListener hinzufügen, der die buttonClickHandler-Funktion aufruft
-myButton.addEventListener('click', buttonClickHandler);
+myButton.addEventListener('Fullscreen', buttonClickHandler);
 
 // Das HTML-Element mit der ID "myRemoveButton" abrufen
 var myRemoveButton = document.getElementById('myRemoveButton');

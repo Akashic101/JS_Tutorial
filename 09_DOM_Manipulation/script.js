@@ -1,5 +1,6 @@
 // Selektiere das Element mit der ID 'changeTextButton'
 var button = document.getElementById("changeTextButton");
+console.log(button)
 
 // Füge einen Klick-Eventlistener hinzu
 button.addEventListener("click", function () {
